@@ -180,13 +180,19 @@ textarea{
     color:white;
     background-color:black;
 }
-@media only screen and (max-width:500px)
+@media only screen and (max-width:900px)
 {
+    img{
+        width:80%;
+    }
+    .navbar ul li{
+        margin-right:20px;
+        padding-right:-30px;
+        padding-bottom:-40px;
+    }
     .weby a{
         font-size: 15px;
         padding:0px;
-        margin:-50px;
-        margin-top:-40px;
     }
     .navbar ul li {
         font-size: 15px;
@@ -195,15 +201,12 @@ textarea{
         align-items: center;
         justify-content: space-between;
     }
-    h1{
-        font-size: 20px;
-
-    }
     .maintext{
-        text-align:center;
-        color:white;
-        max-width:70%;
-        top:40%;
+        text-align:left;
+        color:white;;
+        bottom:0px;
+        top:150px;
+        right:200px;
     }
     img{
         background-color: mediumblue;
@@ -224,17 +227,55 @@ textarea{
     .final{
         padding-right: 50px;
     }
-    form{
-        padding-right:50px;
-    }
     h1{
-        padding-left:15px;
+        font-size: 18px;
+        width:250px;
+        margin-left:-100px;
+        padding-top:100px;
     }
     h3{
         padding:20px;
     }
-    p{
-        padding-left:10px;
+    .maintext p{
+        padding-right:0px;
+        width:300px;
+        margin-right:0px;
+        height:300px;
+        margin-left:-150px;
+        text-align:center;
+        padding-top:10px;
+        margin-bottom:-100px;
+        padding-bottom:-100px;
+    }
+    .aboutus{
+        display:flex;
+        flex-direction:column;
+    }
+    .contact{
+        margin-right:150px;
+        margin-left:0px;
+    }
+    .about{
+        padding-right:30px;
+        padding-left:30px;
+    }
+    .aboutus img{
+        width:100%;
+    }
+    .contact{
+        display:flex;
+        flex-direction:column;
+    }
+    .contactus img{
+        width:362px;
+    }
+    form{
+        padding-right:20px;
+        margin-right:-150px;
+    }
+    .about h1{
+        padding-left:160px;
+        padding-bottom:30px;
     }
 }
 
